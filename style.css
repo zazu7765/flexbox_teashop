@@ -1,0 +1,59 @@
+html{
+  box-sizing: border-box;
+}
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+body{
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color:seashell
+}
+.navbar{
+  height: 69px;
+  width:100%;
+  text-align: center;
+  border-bottom: 1px solid seashell;
+  opacity:0.9;
+  font-size:30px;
+  color:seashell;
+  vertical-align: middle;
+}
+.logo{
+  float:left;
+  margin-left: 10px;
+  margin-right: 50px;
+  max-width: 210px;
+  height: auto;
+}
+ul{
+  float:right;
+  padding: 10px;
+  margin:0px;
+  text-align: center;
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+  display:inline;
+}
+a{
+  color:seashell;
+  text-decoration: none;
+}
+.mission{
+  background-image: url(images/background.jpg);
+  height: 700px;
+  max-width:1200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+#blackbox{
+  background-color: black;
+  width:100%;
+  text-align: center;
+  align-items: center;
+}
