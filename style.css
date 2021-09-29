@@ -10,14 +10,17 @@ body{
   color:seashell
 }
 .navbar{
+  background-color: black;
+  background-size:cover ;
   height: 69px;
   width:100%;
   text-align: center;
-  border-bottom: 1px solid seashell;
   opacity:0.9;
   font-size:30px;
   color:seashell;
   vertical-align: middle;
+  position:fixed;
+  margin-top:-8px;
 }
 .logo{
   float:left;
@@ -25,11 +28,12 @@ body{
   margin-right: 50px;
   max-width: 210px;
   height: auto;
+  margin-top: 0;
 }
 ul{
   float:right;
   padding: 10px;
-  margin:0px;
+  margin:0;
   text-align: center;
 }
 li{
@@ -40,6 +44,7 @@ li{
 a{
   color:seashell;
   text-decoration: none;
+  margin:0;
 }
 .mission{
   background-image: url(images/background.jpg);
@@ -56,4 +61,32 @@ a{
   width:100%;
   text-align: center;
   align-items: center;
+}
+
+.featured{
+  width:1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:auto;
+}
+.bigcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container img{
+  height:200px;
+  width:300px;
+  margin: 10px;
+}
+.container h4{
+  margin:0px;
 }
