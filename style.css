@@ -15,7 +15,7 @@ body{
   height: 69px;
   width:100%;
   text-align: center;
-  opacity:0.9;
+  opacity:0.95;
   font-size:30px;
   color:seashell;
   vertical-align: middle;
@@ -55,6 +55,8 @@ a{
   align-items: center;
   flex-direction: column;
   margin: auto;
+  border-radius: 0px 0px 25px 25px;
+  margin-bottom: 40px;
 }
 #blackbox{
   background-color: black;
@@ -75,6 +77,7 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 40px;
 }
 .container{
   display: flex;
@@ -86,7 +89,27 @@ a{
   height:200px;
   width:300px;
   margin: 10px;
+  border-radius:25px;
 }
 .container h4{
   margin:0px;
+}
+
+.locations{
+  width:1200px;
+  height: 500px;
+  background: url(images/locations.jpg);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 25px;
+}
+.locontainer{
+  background: black;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
 }
